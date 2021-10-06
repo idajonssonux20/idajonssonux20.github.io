@@ -1,0 +1,77 @@
+body {
+    background-color: #ffffff;
+}
+
+/* Logo*/
+.img-logo{
+    width: 400px;
+    height: 90px;
+}
+
+/* Markera vilken menyflik som är aktiv */
+#current{
+    background-color: rgb(248, 184, 176)
+}
+
+/* Style jumbotron och card */
+.jumbotron, .card{
+    background-color: #FFD8A7;
+}
+
+/* FORMULÄR*/
+/* Style input-rutor och textarea-ruta (meddelanderutan) */
+input[type=text], textarea{
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    resize: vertical;
+}
+
+/* Höjd meddelanderuta*/
+#message {
+    height: 200px;
+}
+  
+/* Style av label ovanför input- och textarea-rutorna */
+label {
+    padding: 12px 12px 3px 0;
+    display: inline-block;
+}
+ 
+/* Style typsnitt*/
+h1, .portfolio-text{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h2, h3, .form-group, #navbarSupportedContent{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+p {
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+    font-size: 17px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/* FOOTER*/
+.footer{
+    font-family: 'Times New Roman', Times, serif;
+    background-color:rgb(248, 184, 176)
+}
+.copyright{
+    background-color:rgb(190, 99, 87)
+}
+  
+
+
+
+
+
+  
